@@ -117,6 +117,26 @@ export const experience = [
 
 export const projects = [
   {
+    name: "OTA Platform",
+    description:
+      "Online travel agency platform for international and domestic flights, hotels, buses, attractions, and eSIM, built on a microservice architecture with an ASP.NET Core 10 Web API, an Angular dashboard, and a Next.js B2C web app. Includes payment gateway integration, Redis caching, and Docker deployment.",
+    stack: [
+      "ASP.NET Core 10",
+      "Microservices",
+      "Angular",
+      "Next.js",
+      "Payment Gateway",
+      "Redis",
+      "Docker",
+    ],
+  },
+  {
+    name: "Mini ERP",
+    description:
+      "Mini ERP system with Inventory, Purchase, and Sales modules built using ASP.NET Core 10, React.js, Tailwind CSS, and SQL Server.",
+    stack: ["ASP.NET Core 10", "React.js", "Tailwind CSS", "SQL Server"],
+  },
+  {
     name: "Real-Time Chat App",
     description: "Real-time messaging application built with ASP.NET Core SignalR and Angular.",
     stack: ["ASP.NET Core", "SignalR", "Angular"],
